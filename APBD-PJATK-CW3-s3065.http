@@ -1,0 +1,11 @@
+POST http://localhost:5107/api/rooms
+Content-Type: application/json
+
+{
+  "name": "Lab 500",
+  "buildingCode": "C",
+  "floor": 5,
+  "capacity": 30,
+  "hasProjector": true,
+  "isActive": true
+}
